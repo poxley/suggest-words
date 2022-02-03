@@ -1,0 +1,79 @@
+{
+  "_from": "spelling",
+  "_id": "spelling@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-LMcxpEV7clACLN5kTNuZNOElJOTysEFU3dRgwn8RvLt/7nhaiSB4RzrtlxS3FEcquLsOmkn+U+KRLYZnApxCfQ==",
+  "_location": "/spelling",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "spelling",
+    "name": "spelling",
+    "escapedName": "spelling",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/spelling/-/spelling-2.0.2.tgz",
+  "_shasum": "eaad5facd0a5330e14906b442a7933d16372b69b",
+  "_spec": "spelling",
+  "_where": "D:\\Dev\\Playground",
+  "author": {
+    "name": "Ian Katz",
+    "email": "ianfixes@gmail.com",
+    "url": "https://github.com/ianfixes"
+  },
+  "bugs": {
+    "url": "https://github.com/ianfixes/spelling/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Ahmed AlSahaf",
+      "email": "sahaf525@gmail.com",
+      "url": "https://github.com/asahaf"
+    }
+  ],
+  "deprecated": false,
+  "description": "A spelling checker that provides words suggestions, and the facility to search for words with a specific prefix.",
+  "devDependencies": {
+    "chai": "*",
+    "eslint": "^6.5.1",
+    "mocha": "^6.2.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/ianfixes/spelling",
+  "keywords": [
+    "spell",
+    "spelling",
+    "spellcheck",
+    "spellingcheck",
+    "spell-check",
+    "spelling-check",
+    "spelling-checking",
+    "spell-checking"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "spelling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianfixes/spelling.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "posttest": "eslint .",
+    "test": "mocha"
+  },
+  "version": "2.0.2"
+}
